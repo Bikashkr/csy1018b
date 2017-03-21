@@ -1,0 +1,163 @@
+/* student name : Bikash kumar Yadav */
+/* student ID  : 17425097*/
+
+
+body{
+  margin: 0%;background: pink;font-family: cursive;
+
+}
+h1,h2,h4,h5,h6,p{
+  margin: 0;padding: 0;
+  font-family: Armio;
+
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  background:lightblue; text-align: center;padding: 1%;
+  margin-bottom: -11px;color: red;font-size: 30px;
+}
+.logo{
+  display: flex; flex-direction:row;
+
+}
+.logo img {
+  border-radius: 60px;
+  border: 2px solid red;
+  width: 30%;
+  height: 30%;
+
+}
+
+.menubar{
+
+  width: 100%;
+  background: lightblue;
+  font-size: 20px;
+
+}
+.menubar ul{
+    display: flex;
+  flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+
+
+}
+.menubar ul li{
+  background: lightblue;flex-grow: 1;
+  padding: 15px;
+
+
+
+}
+.menubar ul li :hover{
+  background: yellow; border-radius: 20px;
+}
+.menubar ul li:hover a {
+  color: red;
+}
+.menubar ul li a{
+
+  color: maroon;
+}
+.menubar ul li ul{
+  display: none;position: absolute;width: 18%;
+}
+
+.menubar ul li:hover ul{
+  display: block;margin: 1% 0 0 0;background: blue;
+}
+section{
+
+  background: pink;padding: 1%;display: flex;flex-flow: row nowrap;
+  justify-content:space-around;
+}
+.h1 {
+  background: black;color: Red;
+  padding : 1%;font-size: 45px;
+  font-family: sans-serif;
+
+}
+body .biography  {
+  font-size: 30px;
+  color: maroon;
+  background: white;
+  font-family: sans-serif;
+  margin-top: 0.5%;
+  padding-bottom: 1%;
+}
+body .life{
+  font-family: blackbold;
+  font-size: 35px;
+  margin-top: : 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+body .paragraph{
+  background: white;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+body .vikas .bottle  .hobby{
+  background: pink;
+  font-size: 35px;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.image{
+    display: flex;flex-direction: row;
+
+
+}
+body .image img{
+    width:484px;
+    height: 675px;
+    border-left: 6px solid #ccc;
+}
+.vikas {
+  display: flex;
+  flex-direction: row;
+}
+footer {
+  width: 100%;
+  display: flex;
+    flex-direction: row;
+
+
+}
+
+footer article .image img {
+  width: 52px;
+  height: 45px;
+
+}
+
+
+footer article{
+  width: 100%;
+  background: black;display: flex;flex-direction: row nowrap; justify-content: space-around;
+  display: flex;flex-direction: row;color: white;
+}
+@media screen and (max-width: 600px)
+{
+
+  .menubar ul{
+      display: flex;
+    flex-direction: column;
+      justify-content: space-around;
+      font-family: sans-serif;
+
+  }
+
+  }
