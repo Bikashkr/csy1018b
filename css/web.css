@@ -6,7 +6,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6,p{
   margin: 0; padding: 12px;
-  font-family: Armio;
+font-family: 'Arimo', sans-serif;
 
 
 }
@@ -115,10 +115,8 @@ footer {
     flex-direction: row;
 
 }
-footer article {
 
 
-}
 footer article .image img {
   width: 52px;
   height: 45px;
