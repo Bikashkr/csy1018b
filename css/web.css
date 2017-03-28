@@ -1,9 +1,11 @@
 /* student name : Bikash kumar Yadav */
 /* student ID  : 17425097*/
+
 body{
   margin: 0%;font-size: 15px;background: pink;font-family: cursive;
 
 }
+
 h1,h2,h3,h4,h5,h6,p{
   margin: 0; padding: 12px;
 font-family: 'Arimo', sans-serif;
@@ -17,7 +19,7 @@ li{
 a{
   text-decoration: none;
 }
-
+/* header css starts from here*/
 header{
   background:lightblue; text-align: center;padding: 1%;
   margin-bottom: -13px;color: red;font-size: 30px;
@@ -26,6 +28,7 @@ header{
   display: flex; flex-direction:row;
 
 }
+/* logo css starts from here which is inside header section */
 .logo img {
   border-radius: 60px;
   border: 2px solid red;
@@ -33,7 +36,11 @@ header{
   height: 30%;
 margin-top:10%;
 }
+/* logo css ends here*/
 
+/* header css ends here */
+
+/* menubar css starts from here*/
 .menubar{
 
   width: 100%;
@@ -71,6 +78,9 @@ margin-top:10%;
 .menubar ul li:hover ul{
   display: block;margin: 1% 0 0 0;background: blue;
 }
+/* menubar css ends here */
+
+/* section css starts  from here */
 section{
 
   background: pink;padding: 1%;display: flex;flex-flow: row nowrap;
@@ -108,7 +118,9 @@ section .img{
 section article .video{
   border-right: 3px solid red;
 }
+/* section css ends here*/
 
+/* footer css starts from here*/
 footer {
   width: 100%;
   display: flex;
@@ -128,6 +140,9 @@ footer article{
   background: black;display: flex;flex-direction: row nowrap; justify-content: space-around;
   display: flex;flex-direction: row;color: white;
 }
+/* footer css ends here*/
+
+/*  media queries css starts from here which is helpful in making webpage responsive*/
 
   @media screen and (max-width: 600px)
   {
@@ -148,3 +163,4 @@ footer article{
     }
 
     }
+    /* media queries css ends here */

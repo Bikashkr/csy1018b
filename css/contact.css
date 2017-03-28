@@ -6,13 +6,14 @@
 body{
   margin: 0%;background: pink;font-family: cursive;
 
-
+/* all headers css starts from here*/
 }
 h1,h2,h4,h5,h6,p{
   margin: 0;padding: 0;
   font-family: 'Arimo', sans-serif;
 
 }
+/* all headers css ends here*/
 
 li{
   list-style: none;
@@ -20,13 +21,15 @@ li{
 a{
   text-decoration: none;
 }
-
+/* header css starts from here*/
 header{
   background:lightblue; text-align: center;padding: 1%;
   color: red;font-size: 30px;margin-bottom: -11px;
 
 }
+/* header css ends here*/
 
+/* logo css starts from here which also conatins logo image*/
 .logo{
   display: flex; flex-direction:row;
 
@@ -38,7 +41,9 @@ header{
   height: 30%;
 
 }
+/* logo css ends here which also conatins logo image*/
 
+/* menubar css starts from here which also contains menubar ul li*/
 .menubar{
 
   width: 100%;
@@ -78,6 +83,9 @@ header{
 .menubar ul li:hover ul{
   display: block;margin: 1% 0 0 0;background: blue;
 }
+/* menubar css ends here which also contains menubar ul li*/
+
+/* section css starts from here */
 section{
 
   background: pink;padding: 1%;
@@ -85,15 +93,22 @@ display: flex;flex-flow: row nowrap;
 justify-content: space-around;
 
 }
+/* section css ends here */
+
+/* h1 css starts  from here*/
 .h1 {
   background: black;color: Red;
   padding : 1%;font-size: 45px;
   font-family: sans-serif;
 
 }
+/* h1 css starts  from here*/
+
 .yadav{
   background: white;
 }
+
+/* form css starts from here which also contain other div like input */
 form{
 
   font-family: Armio;
@@ -106,11 +121,14 @@ form{
     height: 27px;
 
 }
+/* form css ends here which also contain other div like input */
+
 .img{
 display:
 flex;
 flex-direction: column;
 }
+/* section css starts from here which contains img css, form,input contact */
 section .yad{
   display: flex;
   flex-direction: row;
@@ -140,6 +158,9 @@ section img{
   padding-top: 3%;
 
 }
+/* section css ends here which contains img css, form,input contact */
+
+/* footer  section css starts from here*/
 footer {
   width: 100%;
   display: flex;
@@ -158,6 +179,9 @@ footer article{
   background: black;display: flex;flex-direction: row nowrap; justify-content: space-around;
   display: flex;flex-direction: row;color: white;
 }
+/*footer section css  ends here */
+
+/* media queries css starts from here which helps to make webpage responsive*/
 @media screen and (max-width: 600px)
 {
 
@@ -191,3 +215,4 @@ footer article{
 
   }
   }
+  /* media queries css ends here which helps to make webpage responsive*/

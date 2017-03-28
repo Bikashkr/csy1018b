@@ -6,10 +6,12 @@ body{
   margin: 0%;font-size: 15px;background: pink;font-family: cursive;
 
 }
+/* all header css starts from here*/
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;padding: 0;
 font-family: 'Arimo', sans-serif;
 }
+/* all header css ends  here*/
 
 li{
   list-style: none;
@@ -17,11 +19,14 @@ li{
 a{
   text-decoration: none;
 }
-
+/* header css start from here */
 header{
   background:lightblue; text-align: center;padding: 1%;
   margin-bottom: -13px;color: red;font-size: 30px;
 }
+/* header css ends here*/
+
+/* logo css starts from here*/
 .logo{
   display: flex; flex-direction:row;
 
@@ -33,7 +38,9 @@ header{
   height: 30%;
 
 }
+/* logo css ends here*/
 
+/* menubar css starts from here*/
 .menubar{
 
 
@@ -71,6 +78,9 @@ header{
 .menubar ul li:hover ul{
   display: block;margin: 1% 0 0 0;background: blue;
 }
+/* menubar css ends here*/
+
+/* section css starts from here  */
 section{
 
   background: pink;padding: 1%;display: flex;flex-flow: row nowrap;
@@ -78,10 +88,17 @@ section{
   space-around;
 
 }
+/* section css ends  here  */
+
+/* h1 css starts from here */
 .h1{
   background: black;color: Red;
   padding: 1%;font-size: 25px;
 }
+
+/* h1 css ends here */
+
+/* paragraph css starts from here */
 .paragraph{
     font-size: 20px;
     font-family: sans-serif;
@@ -89,6 +106,9 @@ section{
     margin-left: 3%
 
 }
+/* paragraph css ends here */
+
+/* image css starts  from here which is in body  section */
 .image{
     display: flex;flex-direction: row;
 
@@ -107,6 +127,9 @@ body .image .img img{
   margin-left: 2%;
 
 }
+/* image  css ends here which is in body section */
+
+/* footer css  starts from here */
 footer {
   width: 100%;
   display: flex;
@@ -128,6 +151,10 @@ footer article{
   background: black;display: flex;flex-direction: row nowrap; justify-content: space-around;
   display: flex;flex-direction: row;color: white;
 }
+
+/* footer css ends here */
+
+/* media queries starts from here which helps to make webpage  responsive */
 @media screen and (max-width: 600px)
 {
 
@@ -146,3 +173,4 @@ footer article{
   }
 
 }
+/* media queries ends here which helps to make webpage  responsive */

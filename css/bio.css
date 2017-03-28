@@ -6,11 +6,13 @@ body{
   margin: 0%;background: pink;font-family: cursive;
 
 }
+/* all header css starts from here */
 h1,h2,h4,h5,h6,p{
   margin: 0;padding: 0;
 font-family: 'Arimo', sans-serif;
 
 }
+/* all header css ends here */
 
 li{
   list-style: none;
@@ -18,11 +20,14 @@ li{
 a{
   text-decoration: none;
 }
-
+/* header css starts from here*/
 header{
   background:lightblue; text-align: center;padding: 1%;
   margin-bottom: -11px;color: red;font-size: 30px;
 }
+/* header css ends here*/
+
+/* logo css starts  from here which contains logo, image*/
 .logo{
   display: flex; flex-direction:row;
 
@@ -34,7 +39,9 @@ header{
   height: 30%;
 
 }
+/* logo css ends here which contains logo, image*/
 
+/* menubar css starts from here which also contains css of menubar ul,li,a*/
 .menubar{
 
   width: 100%;
@@ -74,6 +81,9 @@ header{
 .menubar ul li:hover ul{
   display: block;margin: 1% 0 0 0;background: blue;
 }
+/* menubar css ends here which also contains css of menubar ul,li,a*/
+
+/* section css starts from here which contains other div like h1, paragraph, life,vikas,image*/
 section{
 
   background: pink;padding: 1%;display: flex;flex-flow: row nowrap;
@@ -129,6 +139,9 @@ body .image img{
   display: flex;
   flex-direction: row;
 }
+/* section css ends here which contains other div like h1, paragraph, life,vikas,image*/
+
+/* footer css starts from here which contains footer img,article*/
 footer {
   width: 100%;
   display: flex;
@@ -149,6 +162,9 @@ footer article{
   background: black;display: flex;flex-direction: row nowrap; justify-content: space-around;
   display: flex;flex-direction: row;color: white;
 }
+/* footer css ends here which contains footer img,article*/
+
+/* media queries css starts from here which helps to make webpage responsive*/
 @media screen and (max-width: 600px)
 {
 
@@ -168,3 +184,4 @@ footer article{
   }
 }
   }
+  /* media queries css ends here which helps to make wsebpage responsive*/
