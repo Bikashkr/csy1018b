@@ -176,7 +176,7 @@ footer article .image img {
 
 footer article{
   width: 100%;
-  background: black;display: flex;flex-direction: row nowrap; justify-content: space-around;
+  background: black;display: flex;flex-direction: row; justify-content: space-around;
   display: flex;flex-direction: row;color: white;
 }
 /*footer section css  ends here */
@@ -194,7 +194,7 @@ footer article{
   }
   footer article{
     width: 100%;
-    background: black;display: flex;flex-direction: row nowrap; justify-content: space-around;
+    background: black;display: flex;flex-direction: row; justify-content: space-around;
     display: flex;flex-direction: row;color: white;
 
   }
