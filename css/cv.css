@@ -28,14 +28,15 @@ header{
 
 /* logo css starts from here*/
 .logo{
-  display: flex; flex-direction:row;
+  display: flex;
+  flex-direction:row;
 
 }
 .logo img {
   border-radius: 60px;
   border: 2px solid red;
-  width: 30%;
-  height: 30%;
+  height: 120px;
+  width: 110px;
 
 }
 /* logo css ends here*/
@@ -83,10 +84,16 @@ header{
 /* section css starts from here  */
 section{
 
-  background: pink;padding: 1%;display: flex;flex-flow: row nowrap;
-  justify-content:
-  space-around;
+  background: pink;padding: 1%;
 
+
+
+}
+section img{
+  height: 540px;
+  width: 445px;
+  display: flex;
+  flex-direction: row;
 }
 /* section css ends  here  */
 
@@ -103,21 +110,10 @@ section{
     font-size: 20px;
     font-family: sans-serif;
     text-align: left;
-    margin-left: 3%
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
 
-}
-/* paragraph css ends here */
-
-/* image css starts  from here which is in body  section */
-.image{
-    display: flex;flex-direction: row;
-
-
-}
-body .image .img img{
-    width:484px;
-    height: 575px;
-    border-left: 6px solid #ccc;
 }
 
 .h2{
@@ -127,6 +123,7 @@ body .image .img img{
   margin-left: 2%;
 
 }
+
 /* image  css ends here which is in body section */
 
 /* footer css  starts from here */
@@ -164,6 +161,10 @@ footer article{
       justify-content: space-around;
       font-family: sans-serif;
 
+  }
+  .paragraph{
+    display: flex;
+    flex-direction: column;
   }
   footer article{
     width: 100%;

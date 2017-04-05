@@ -35,6 +35,8 @@ header{
   width: 30%;
   height: 30%;
 margin-top:10%;
+height: 120px;
+width: 110px;
 }
 /* logo css ends here*/
 
@@ -50,7 +52,7 @@ margin-top:10%;
 }
 .menubar ul{
     display: flex;
-  flex-direction: row;
+    flex-direction: row;
     justify-content: space-around;
     font-family: sans-serif;
 
@@ -161,5 +163,5 @@ footer article{
     }
     }
 
-    
+
     /* media queries css ends here */

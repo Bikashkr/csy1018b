@@ -35,8 +35,8 @@ header{
 .logo img {
   border-radius: 60px;
   border: 2px solid red;
-  width: 30%;
-  height: 30%;
+  width: 110px;
+  height: 120px;
 
 }
 /* logo css ends here which contains logo, image*/
@@ -125,7 +125,8 @@ body .vikas .bottle  .hobby{
 }
 
 .image{
-    display: flex;flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
 
 }
@@ -173,7 +174,14 @@ footer article{
       justify-content: space-around;
       font-family: sans-serif;
     }
-
+    .image {
+      display: flex;
+      flex-direction: column;
+    }
+    .vikas{
+      display: flex;
+      flex-direction: column;
+    }
       footer article{
         width: 100%;
         background: black;display: flex;flex-direction: row; justify-content: space-around;
@@ -182,5 +190,5 @@ footer article{
 
   }
 }
-  
+
   /* media queries css ends here which helps to make wsebpage responsive*/
