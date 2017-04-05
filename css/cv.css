@@ -1,7 +1,7 @@
 /* student name : Bikash kumar Yadav */
 /* student ID  : 17425097*/
 
-
+/* it define the css of the whole page body of cv page */
 body{
   margin: 0%;font-size: 15px;background: pink;font-family: cursive;
 
@@ -9,7 +9,7 @@ body{
 /* all header css starts from here*/
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;padding: 0;
-font-family: 'Arimo', sans-serif;
+font-family: 'Arimo', sans-serif; /* it helps to use the google fonts in the  webpage*/
 }
 /* all header css ends  here*/
 
@@ -34,7 +34,7 @@ header{
 }
 .logo img {
   border-radius: 60px;
-  border: 2px solid red;
+  border: 2px solid red; /* it helps to provide red border to the logo*/
   height: 120px;
   width: 110px;
 

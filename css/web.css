@@ -1,6 +1,7 @@
 /* student name : Bikash kumar Yadav */
 /* student ID  : 17425097*/
 
+/* it define the css of the whole page body */
 body{
   margin: 0%;font-size: 15px;background: pink;font-family: cursive;
 
@@ -28,7 +29,7 @@ header{
   display: flex; flex-direction:row;
 
 }
-/* logo css starts from here which is inside header section */
+/* logo css starts from here*/
 .logo img {
   border-radius: 60px;
   border: 2px solid red;
@@ -40,7 +41,6 @@ width: 110px;
 }
 /* logo css ends here*/
 
-/* header css ends here */
 
 /* menubar css starts from here*/
 .menubar{
@@ -123,7 +123,7 @@ section article .video{
 
 /* footer css starts from here*/
 footer {
-  width: 100%;
+  width: 100%; /* it helps to mantain width of the footer section*/
   display: flex;
     flex-direction: row;
 
